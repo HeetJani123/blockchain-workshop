@@ -1,0 +1,8 @@
+node_modules/
+.next/
+.next-dev/
+out/
+*.tsbuildinfo
+.sites-runtime/
+*.zip
+*.tar.gz
