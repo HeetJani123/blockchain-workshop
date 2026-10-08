@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev --hostname 127.0.0.1",
     "build": "next build",
-    "start": "next start --hostname 127.0.0.1",
+    "start": "node scripts/serve.mjs",
+    "preview": "node scripts/serve.mjs",
     "test": "node --test tests/engine.test.mjs"
   },
   "dependencies": {
